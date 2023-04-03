@@ -1,12 +1,7 @@
 package ejemplo3;
 
 interface In2 {
-
-    // Here new comentary
-    // Other comentary
-    //New comentary
-
-        final int a = 10;
+       final int a = 10;
         default void display()  {
             System.out.println("hello");
         }
